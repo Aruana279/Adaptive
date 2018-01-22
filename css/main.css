@@ -1,0 +1,219 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.header{
+	min-height: 120px;
+	/*background: #ccc;*/
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.h-logo .logo {
+	display: block;
+}
+.h-logo {
+	display: inline-block;
+	width: 40%;
+	vertical-align: middle;
+}
+.h-info {	
+	font-size: 18px;
+	display: inline-block;
+	width: 59%;
+	vertical-align: middle;
+}
+.h-info .h-info-label {
+	color: #9e9faf;
+	margin-bottom: 4px;
+}
+.h-info .h-info-content {
+	color: #15285a;
+}
+.h-info .h-addr {
+	float: left;
+	margin-right: 105px;
+}
+.h-info .h-phone {
+	float: left;
+	min-width: 180px;
+}
+.h-info .h-phone .h-info-label,
+.h-info .h-phone .h-info-content {
+	display: inline-block;
+	vertical-align: middle;
+}
+.h-info .h-phone .h-info-label{
+	min-width: 52px;
+}
+
+.banner-wrapper	{
+	background-color: #142757;
+}
+
+
+.banner	{
+	padding-top: 60px;
+	color: #fff;
+	background-color: rgba(20, 39, 87, .5);
+}
+
+.banner h1 {
+	font-size: 72px;
+	line-height: 67px;
+	text-transform: uppercase;
+	margin-bottom: 55px;
+}
+
+.blue-row {
+	background-color: rgba(51, 83, 141, 0.8);
+	padding: 45px 0;
+	font-size: 22px
+}
+
+.row {
+	overflow: hidden;
+}
+
+.blue-row .banner-description {
+	max-width: 600px;
+	float: left;
+	overflow: hidden;
+}
+
+.logos {
+	max-width: 600px;	
+	float: left;
+}
+
+.logos div {
+	display: inline-block;
+	-webkit-background-size: contain;
+	background-size: contain;
+	margin-top: 24px;
+}
+
+.logo-citic {
+	background-image: url('../img/logo_citic.png');
+	width: 225px;
+	height: 97px;
+}
+.logo-kcm {
+	background-image: url('../img/logo_kcm.png');
+	width: 243px;
+	height: 77px;
+	margin-right: 50px;
+}
+
+.parameter{
+	padding-top: 80px;
+}
+
+.parameter h2{
+	font-size: 48px;
+	color: #3d4046;
+	text-transform: uppercase;
+	margin-bottom: 58px;
+}
+
+
+
+.setting{
+	width: 376px;
+	height: 238px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #9396bf;
+	margin-right: 30px;
+	display: block;
+	float: left;
+	margin-bottom: 26px;
+	text-align: center;
+}
+.setting:nth-child(3n){
+	width: 376px;
+	height: 238px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #9396bf;
+	margin-right: 0px;
+}
+
+.windows{
+	overflow: hidden;
+}
+
+.icon{
+	display: block;
+	width: 91px;
+	height: 91px;
+	background-color: #002870;
+	vertical-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+
+}
+
+.icon:before {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+
+.icon-calendar:before{
+	background-image: url('../img/calendar.png');
+}
+
+.icon-globe:before{
+	background-image: url('../img/globe.png');
+}
+
+.icon-money:before{
+	background-image: url('../img/money.png');
+}
+
+.icon-graph:before{
+	background-image: url('../img/graph.png');
+}
+
+.icon-stat:before{
+	background-image: url('../img/stat.png');
+}
+
+@font-face {
+    font-family: 'ProximaNovaCondensedRegular' , 'ProximaNovaCondensedBold' ;
+    src: url('../fonts/Proxima Nova Condensed Regular.otf') , url('../fonts/ProximaNovaCondensedBold.otf');
+}
+
+.windows .title{
+	font-size: 16px;
+	color: #676878;
+	text-transform: uppercase;
+	max-width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	font-family: 'ProximaNovaCondensedRegular';
+
+
+}
+
+.windows p{
+	font-size: 18px;
+	color: #15285a;
+	text-transform: uppercase;
+	max-width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'ProximaNovaCondensedBold';
+
+}
