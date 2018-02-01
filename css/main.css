@@ -217,3 +217,52 @@
 	font-family: 'ProximaNovaCondensedBold';
 
 }
+
+.middle-wrapper {
+	background-position: bottom;
+	max-height: 400px;
+}
+
+.grey-row {
+	background-color: rgba(58, 63, 109, 0.6);
+	padding: 110px 0;
+	font-size: 36px;
+	max-height: 400px;
+}
+
+.row {
+	overflow: hidden;
+}
+
+.grey-row .wrapper-description {
+	max-width: 38%;
+	line-height: 60px;
+	float: left;
+	overflow: hidden;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.wrapper-info {
+	max-width: 600px;	
+	float: left;
+	margin-left: 90px;
+	color: #fff;
+	max-width: 58%;
+}
+
+.row .wrapper-info p {
+	margin-bottom: 8px;
+}
+
+.wrapper-info div {
+	display: inline-block;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+
+.row .wrapper-info pr1 {
+	font-size: 24px;
+}
+
+
