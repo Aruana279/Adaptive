@@ -67,6 +67,8 @@
 	line-height: 67px;
 	text-transform: uppercase;
 	margin-bottom: 55px;
+	color:#fff;
+	line-height:82px;
 }
 
 .blue-row {
@@ -123,8 +125,8 @@
 
 
 .setting{
-	width: 376px;
-	height: 238px;
+	width: 350px;
+	min-height: 281px;
 	border-width: 2px;
 	border-style: solid;
 	border-color: #9396bf;
@@ -135,11 +137,6 @@
 	text-align: center;
 }
 .setting:nth-child(3n){
-	width: 376px;
-	height: 238px;
-	border-width: 2px;
-	border-style: solid;
-	border-color: #9396bf;
 	margin-right: 0px;
 }
 
@@ -236,7 +233,7 @@
 
 .grey-row .wrapper-description {
 	max-width: 38%;
-	line-height: 60px;
+	line-height: 50px;
 	float: left;
 	overflow: hidden;
 	color: #fff;
@@ -290,10 +287,6 @@
 	float: left;
 }
 
-.second-column{
-	max-width: 48%;
-	float: left;
-}
 
 
 .block {
@@ -317,6 +310,7 @@
 	background-position: center center;
 	background-repeat: no-repeat;
 	float: left;
+	margin-right: 22px;
 }
 
 .icon-people:before{
@@ -339,10 +333,7 @@
 }
 
 
-.first-row , .second-row {
-	max-width: 1200px;
-	min-height: 270px;
-}
+
 
 
 
@@ -447,7 +438,7 @@
 	vertical-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 20px;
+	margin-bottom: 0px;
 }
 
 
@@ -526,7 +517,7 @@
 
 
 .block-services {
-	max-width: 600px;
+	max-width: 100%;
 	font-size: 20px;
 	color: #3d4046;
 	font-family: 'ProximaNovaCondensedBold';
@@ -546,11 +537,13 @@
 	background-repeat: no-repeat;
 	float: left;
 	margin-bottom: 5px;
+	background-position-y: 0; 
 }
 
 
 .extra-description{
 	min-width: 470px;
+	margin-left: 91px;
 }
 
 
@@ -558,16 +551,18 @@
 	color: #002870;
 	font-size: 24px;
 	text-transform: uppercase;
+	min-width: 538px;
 }
 
 
-.slider-wrapper{
+.main-slider{
 	padding-top: 50px;
 	overflow: hidden;
-	margin-bottom: 80px;
+	min-height: 615px;
+	background-color: #edeef4;
 }
 
-.slider-wrapper h2{
+.main-slider h2{
 	text-transform: uppercase;
 	color: #3d4046;
 	font-size: 40px;
@@ -583,13 +578,14 @@
 }
 
 
-.slider{
+.item{
 	overflow: hidden;
 }
 
-.slider-description{
+.item-description{
 	padding-left: 46px;
 	float: left;
+	margin-top: 54px; 
 }
 
 
@@ -619,7 +615,7 @@
 }
 
 .electric-tower{
-	width: 820px;
+	width: 730px;
 	min-height: 400px;
 	float: left;
 	background-position: cover;
@@ -644,6 +640,8 @@
 	font-size: 22px
 	color:#fff;
 	overflow: hidden;
+	position: relative;
+	z-index: 2;
 }
 
 
@@ -691,18 +689,6 @@
 }
 
 
-.pin{
-	background-position: center center;
-	height: 70px;
-	width: 38px;
-	background-repeat: no-repeat;
-	z-index: 2;
-	position: absolute;
-	background-image: url('../img/pin.png');
-	left: 610px;
-	top: 4784px;
-}
-
 
 
 .year , .aru{
@@ -716,6 +702,17 @@
 }
 
 
+.address{
+	position: relative;
+}
+
+#googleMap{
+	position: absolute;
+	width: 100%;
+	height: 410px;
+	z-index: 1;
+
+}
 
 
 

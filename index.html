@@ -4,13 +4,32 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" width="width=device-width">
 	<title>Adaptive</title>
+		<!-- <link rel="stylesheet" href="css/slick.css"> -->
 	<link rel="stylesheet" href="css/main.css">
 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 	<!-- <link rel="stylesheet" type="text/css" href="css/slick.css"/>
 // Add the new slick-theme.css if you want the default styling
 <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/> -->
 	<!-- <link href='https://fonts.googleapis.com/css?family=[ProximaNovaCondensedRegular' rel='stylesheet'> -->
+
+
+	<style>	
+			.main-slider .slider-list{
+				overflow: hidden;
+			}
+			.main-slider .slider-list .item{
+				height: 400px;
+				background-position: center;
+				color: #fff;
+				display: inline-block;
+				width: 100%;
+			}
+		</style>
+
+
+
 </head>
 <body>
 	<div class="header">
@@ -87,7 +106,54 @@
 			<div class="container">
 				<h2>Параметры фонда</h2>
 				<div class="windows">
-					<div class="window-money setting">
+
+					<div class="first-row">
+							<div class="window-money setting">
+							<div class="icon icon-money">	</div>
+							<div class="money-description">
+								<div class="title">
+									Размер активов под управлением Фонда: 
+								</div>
+								<p>200 млн долл. США </p>
+							</div>
+						</div>
+						<div class="window-globe setting">
+							<div class="icon icon-globe"></div>
+							<div class="description">
+								<div class="title">
+									Страны инвестирования:  
+								</div>
+								<p>Республика Казахстан и Китайская Народная Республика </p>
+							</div>
+						</div>
+						<div class="window-graph setting">
+							<div class="icon icon-graph"></div>
+							<div class="title">
+									Отрасли инвестирования: 
+							</div>
+							<p>любые секторы, за исключением финансового сектора, разведки и добычи нефти и газа </p>
+
+						</div>
+					</div>
+
+					<div class="first-row">
+							<div class="window-calendar setting">
+							<div class="icon icon-calendar"></div>
+							<div class="title">
+								Срок жизни Фонда: 
+							</div>
+							<p>10 лет с возможностью продления на 2 года </p>
+						</div>
+						<div class="window-stat setting">
+							<div class="icon icon-stat"></div>
+							<div class="title">
+									Инвестиционный период: 
+							</div>
+							<p>5 лет с возможностью продления на 1 год </p>
+							
+						</div>
+					</div>
+					<!-- <div class="window-money setting">
 						<div class="icon icon-money">	</div>
 						<div class="money-description">
 							<div class="title">
@@ -127,7 +193,7 @@
 						</div>
 						<p>5 лет с возможностью продления на 1 год </p>
 						
-					</div>
+					</div> -->
 				</div>
 			
 			</div>
@@ -157,6 +223,7 @@
 				</div>
 			</div>
 	</div>
+
 	<div class="team-wrapper" style="background-image: url('img/team.jpg')">
 		<div class="team">
 			<div class="container">
@@ -186,7 +253,7 @@
 					</div>	
 
 
-					<div class="second-column">
+					<div class="first-column">
 						<div class="block right-float">
 							<div class="icon-team icon-relationship"></div>
 							<p>Крепкие взаимоотношения со стратегическими инвесторами и финансовыми институтами </p>
@@ -360,25 +427,63 @@
 	</div>
 
 	
-	<div class="slider-wrapper">
+
+
+	<div class="main-slider">
 		<div class="container">
-			<div class="slider">
-				<h2>инвестиционный портфель фонда</h2>
-				<div class="blue-column">
-					<div class="slider-description">
-						<h3>CAEPCO</h3>
-						<div class="specialization">
-							<h4>Специализация:</h4>
-							<p>Производство <br>
-электроэнергии</p>
-						</div>
-						<div class="year">
-							<h4>Год:</h4>
-							<p>2015</p>
+			<h2>инвестиционный портфель фонда</h2>
+			<div class="slider-list">
+				<div class="item">
+					<div class="blue-column">
+						<div class="item-description">
+							<h3>CAEPCO</h3>
+							<div class="specialization">
+								<h4>Специализация:</h4>
+								<p>Производство <br> электроэнергии</p>
+							</div>
+							<div class="year">
+								<h4>Год:</h4>
+								<p>2015</p>
+							</div>
 						</div>
 					</div>
+					<div class="electric-tower" style="background-image: url('img/electric-tower.jpg')"></div>
+
+
+					
 				</div>
-				<div class="electric-tower" style="background-image: url('img/electric-tower.jpg')"></div>
+				<d	iv class="item">
+					<div class="blue-column">
+						<div class="item-description">
+							<h3>CAEPCO</h3>
+							<div class="specialization">
+								<h4>Специализация:</h4>
+								<p>Производство <br> электроэнергии</p>
+							</div>
+							<div class="year">
+								<h4>Год:</h4>
+								<p>2015</p>
+							</div>
+						</div>
+					</div>
+					<div class="electric-tower" style="background-image: url('img/electric-tower.jpg')"></div>
+				</div>
+				<!-- <div class="item">
+					<div class="blue-column">
+						<div class="item-description">
+							<h3>CAEPCO</h3>
+							<div class="specialization">
+								<h4>Специализация:</h4>
+								<p>Производство <br> электроэнергии</p>
+							</div>
+							<div class="year">
+								<h4>Год:</h4>
+								<p>2015</p>
+							</div>
+						</div>
+					</div>
+					<div class="electric-tower" style="background-image: url('img/electric-tower.jpg')"></div>
+				</div> -->
 			</div>
 		</div>
 	</div>
@@ -399,9 +504,10 @@
 
 
 
-	<div class="footer-wrapper" style="background-image: url('img/location.jpg')">
+	<div class="footer-wrapper">
 		<div class="address">
 			
+			<div id="googleMap"></div>
 			<div class="address-row">
 				<div class="container">
 					<div class="row">
@@ -427,6 +533,35 @@
 	</div>
 
 
+
+
+	
+
+
+
+
+				
+		
+
+
+	
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<script src="css/slick.js"></script>
+		<script>
+			$(document).ready(function(){
+				$('.slider-list').slick({
+					arrows: true
+				});
+			})
+		</script>
+
+
+
+
+
+
 	<div class="empty-wrapper">
 		<div class="container">
 		<div class="year">2017 citic kazyna</div>
@@ -434,6 +569,32 @@
 		<div class="aru">Made by Koshkarova Aruzhan</div>
 		</div>
 	</div>
+
+
+
+	<script>
+      function initMap() {
+        var uluru = {lat:43.2298523, lng: 76.9569014};
+        var map = new google.maps.Map(document.getElementById('googleMap'), {
+          zoom: 16,
+          center: {lat: 43.231, lng: 76.956}
+
+
+        });
+        var pin = {
+          url: 'img/pin.png',
+          
+        }
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map,
+          icon: pin
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBGtS5m_AtPQbFFxf6qjzLOJYT9nT4eCsQ&callback=initMap">
+    </script>
 </body>
 </html>
 
@@ -467,3 +628,4 @@
 			</div>
 		</div>
 	</div> -->
+
