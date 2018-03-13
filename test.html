@@ -16,7 +16,9 @@
 
 
 	<style>	
-			
+			.main-slider .slider-list{
+				overflow: hidden;
+			}
 			.main-slider .slider-list .item{
 				height: 400px;
 				background-position: center;
@@ -33,7 +35,7 @@
 	<div class="header">
 		<div class="container">
 			<div class="h-logo">
-				<a href="test.html" class="logo">
+				<a href="index.html" class="logo">
 					<img src="img/logo.png" alt="">
 				</a>
 			</div>
@@ -80,7 +82,7 @@
 					<div class="row">
 						<div class="banner-description">
 							<p>
-								<b>CITIC KAZYNA IMVESTMENT FUND I</b> – фонд прямых инвестиций, инвесторами которого выступили АО «Казына Капитал Менеджмент» (дочерняя организация АО «Национальный управляющий холдинг «Байтерек») и китайская инвестиционная корпорация CITIC Capital.
+								CITIC Kazyna Investment Fund I – фонд прямых инвестиций, инвесторами которого выступили АО «Казына Капитал Менеджмент» (дочерняя организация АО «Национальный управляющий холдинг «Байтерек») и китайская инвестиционная корпорация CITIC Capital.
 
 							</p>
 							<p>
@@ -106,7 +108,7 @@
 				<div class="windows">
 
 					<div class="first-row">
-						<div class="window-money setting">
+							<div class="window-money setting">
 							<div class="icon icon-money">	</div>
 							<div class="money-description">
 								<div class="title">
@@ -227,41 +229,40 @@
 			<div class="container">
 				<h2>О команде</h2>
 				<div class="team-info">
-					<div class="team-row">
+
+
+					<div class="first-column">				
 						<div class="block">
 							<div class="icon-team icon-people"></div>
-							<div class="text">	Cильная команда 		профессиональных консультантов включает ключевых инвестиционных специалистов, юридических и финансовых консультантов</div>
+							<p>	Cильная команда 		профессиональных консультантов включает ключевых инвестиционных специалистов, юридических и финансовых консультантов</p>
 						</div>
-						<div class="block right-float">
-							<div class="icon-team icon-relationship"></div>
-							<div class="text">Крепкие взаимоотношения со стратегическими инвесторами и финансовыми институтами </div>
-						</div>
-					</div>
-
-					<div class="team-row">
 						<div class="block">
 							<div class="icon-team icon-hourglass"></div>
-							<div class="text">
+							<p>
 							Большой опыт работы в области прямых инвестиций, как в Казахстане, так и за рубежом
-							</div>
+							</p>
+						</div>
+						<div class="block">
+							<div class="icon-team icon-column"></div>
+							<p>
+								Долгосрочное взаимодействие с международными фондами прямых инвестиций, инвестиционными банками и консультантами
+							</p>
+						</div>
+
+
+					</div>	
+
+
+					<div class="first-column">
+						<div class="block right-float">
+							<div class="icon-team icon-relationship"></div>
+							<p>Крепкие взаимоотношения со стратегическими инвесторами и финансовыми институтами </p>
 						</div>
 						<div class="block right-float">
 							<div class="icon-team icon-contract"></div>
-						<div class="text">Соблюдение лучших деловых практик, международных стандартов фондов прямых инвестиций </div>
+						<p>Соблюдение лучших деловых практик, международных стандартов фондов прямых инвестиций </p>
 						</div>
 					</div>
-
-					<div class="team-row">
-						<div class="block">
-							<div class="icon-team icon-column"></div>
-							<div class="text">
-								Долгосрочное взаимодействие с международными фондами прямых инвестиций, инвестиционными банками и консультантами
-							</div>
-						</div>
-
-					</div>
-
-
 				</div>
 			</div>
 		</div>
@@ -513,8 +514,8 @@
 
 						<div class="footer-description">
 							<div class="title">как нас найти</div>
-							<button class="btn" onclick="initMap()">В Алматы</button>
-							<button class="btn choice" onclick="toggleCity()">В Астане</button>
+							<button class="btn">В Алматы</button>
+							<button class="btn choice">В Астане</button>
 						</div>
 
 
@@ -590,29 +591,6 @@
         });
       }
     </script>
-
-
-	<script>
-		function toggleCity() {
-			var uluru = {lat:51.1340754, lng: 71.4652936};
-        	var map = new google.maps.Map(document.getElementById('googleMap'), {
-          		zoom: 16,
-          		center: {lat: 51.135, lng: 71.4644}
-
-
-        });
-        	var pin = {
-          		url: 'img/pin.png',
-          
-        }
-        	var marker = new google.maps.Marker({
-          		position: uluru,
-          		map: map,
-          		icon: pin
-        });
-			}
-	</script>
-
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBGtS5m_AtPQbFFxf6qjzLOJYT9nT4eCsQ&callback=initMap">
     </script>
@@ -621,4 +599,32 @@
 
 
 
+<!-- <div class="banner-wrapper" style="background-image: url('img/visual.jpg')">
+		<div class="banner">
+			
+			<div class="container">
+				<h1>Фонд<br>прямых инвестиций</h1>
+			</div>
+
+			<div class="blue-row">
+				<div class="container">
+					<div class="row">
+						<div class="banner-description">
+							<p>
+								CITIC Kazyna Investment Fund I – фонд прямых инвестиций, инвесторами которого выступили АО «Казына Капитал Менеджмент» (дочерняя организация АО «Национальный управляющий холдинг «Байтерек») и китайская инвестиционная корпорация CITIC Capital.
+
+							</p>
+							<p>
+								Фонд начал свою деятельность в апреле 2010 г. 
+							</p>
+						</div>
+						<div class="logos">
+							<div class="logo-kcm"></div>
+							<div class="logo-citic"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> -->
 
